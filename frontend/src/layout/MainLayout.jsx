@@ -16,6 +16,7 @@ export default function MainLayout() {
   const menu = [
     { label: "Dashboard", icon: <LayoutDashboard size={20} />, path: "/dashboard" },
     { label: "Clientes", icon: <Users size={20} />, path: "/clientes" },
+    { label: "Servicios", icon: <Users size={20} />, path: "/servicios" },
     { label: "Profesionales", icon: <UserCog size={20} />, path: "/profesionales" },
     { label: "Turnos", icon: <CalendarCheck size={20} />, path: "/turnos" },
   ];

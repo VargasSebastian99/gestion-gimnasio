@@ -1,5 +1,6 @@
 package com.gimnasio.gestion.dto;
 
+import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;
 import lombok.Setter;
@@ -13,6 +14,7 @@ public class ClienteRequestDTO {
 
     private String dni;
     private String telefono;
+    @Email
     private String email;
     private String direccion;
     private String observaciones;

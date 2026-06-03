@@ -33,7 +33,7 @@ public class DataInitializer implements CommandLineRunner {
         List<String> permisos = List.of(
                 "CLIENTE_VER", "CLIENTE_CREAR", "CLIENTE_EDITAR",
                 "PLAN_VER", "PLAN_CREAR",
-                "COBRO_REGISTRAR"
+                "COBRO_REGISTRAR", "SERVICIO_VER", "SERVICIO_EDITAR","SERVICIO_CREAR"
         );
         permisos.forEach(codigo ->
                     permisoRepository.findByCodigo(codigo)
